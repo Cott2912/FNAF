@@ -167,8 +167,8 @@ function createGameButton(game, pin, lazy) {
     let img = document.createElement('img');
     img.setAttribute('data-src', game.featuredImage);
     img.src = modifyImageUrl(game.featuredImage);
-    img.alt = `FreezeNova ${gameName}`;
-    img.title = `FreezeNova ${gameName}`;
+    img.alt = `FNAF ${gameName}`;
+    img.title = `FNAF ${gameName}`;
     img.className = '';
 	img.setAttribute('loading', 'lazy');
 

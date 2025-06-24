@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Super Mini Racing - FreezeNova</title>
+	<title>Super Mini Racing - FNAF</title>
 	<style>
 		html,
 		body {
@@ -135,14 +135,14 @@
 			{
 				if (window[preroll.config.loaderObjectName] != undefined)
 				{
-					gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onOpen');
+					gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onOpen');
 				
 					try {
 						window[preroll.config.loaderObjectName].refetchAd(ExternEvalResumeGame);
 					}
 					catch(err) {
 						console.log(err.message);
-						gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+						gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onClose');
 					}
 				}
 			}
@@ -154,7 +154,7 @@
 	{
 		console.log("ExternEvalResumeGame");
 	
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+		gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onClose');
 	}
 	
 	function PreloadRewarded() 
@@ -192,14 +192,14 @@
 		
 			if (window[preroll.config.loaderObjectName] != undefined)
 			{
-				gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onOpen');
+				gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onOpen');
 			
 				try {
 					window[preroll.config.loaderObjectName].showRewardAd();
 				}
 				catch(err) {
 					console.log(err.message);
-					gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+					gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onClose');
 				}
 			}
 		}
@@ -213,12 +213,12 @@
 		if (window.rewardedCount == undefined)
 		{
 			window.rewardedCount = 1;
-			window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
+			window.gameInstance.SendMessage('FNAFAPI', 'RewardedReady');
 		}
 		else{
 			window.rewardedCount = window.rewardedCount + 1;
-			//setTimeout(function(){ window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady'); }, 30000);
-			window.gameInstance.SendMessage('FreezeNovaAPI', 'RewardedReady');
+			//setTimeout(function(){ window.gameInstance.SendMessage('FNAFAPI', 'RewardedReady'); }, 30000);
+			window.gameInstance.SendMessage('FNAFAPI', 'RewardedReady');
 		}
 		
 	}
@@ -226,21 +226,21 @@
 	function RewardedSuccess()
 	{
 		console.log("RewardedSuccess");
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'RewardedOnRewarded');
-		//gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+		gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'RewardedOnRewarded');
+		//gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onClose');
 	}
 	
 	function RewardedFail()
 	{
 		console.log("RewardedFail");
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'RewardedOnFail');
-		//gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+		gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'RewardedOnFail');
+		//gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onClose');
 	}
 	
 	function RewardedClose()
 	{
 		console.log("RewardedClose");
-		gameInstance.SendMessage('FreezeNovaAPI', 'AdMessage', 'onClose');
+		gameInstance.SendMessage('FNAFAPI', 'AdMessage', 'onClose');
 	}
 	
 	InitApi(0);
@@ -262,7 +262,7 @@
 				frameworkUrl: "Build/game.framework.js.unityweb",
 				codeUrl: "Build/game.wasm.unityweb",
 				streamingAssetsUrl: "StreamingAssets",
-				companyName: "FreezeNova",
+				companyName: "FNAF",
 				productName: "Crazy Drifter",
 				productVersion: "0.1",
 			};

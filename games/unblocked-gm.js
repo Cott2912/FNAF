@@ -14,15 +14,15 @@ function unblockedGetParentUrl()
 const xr = "unblocked-games.s3.amazonaws.com";
 const xr2 = "www.onlinegames.io";
 const xr3 = "d9k5uuutyxogn.cloudfront.net";
-const xr4 = "freezenova.github.io";
+const xr4 = "FNAF.github.io";
 const xr5 = "sites.google.com";
 const xr6 = "www.gstatic.com";
 const xr7 = "dnrweqffuwjtx.cloudfront.net";
 const xr8 = "totallyscience.co";
 const xr9 = "cloud.totallyscience.co";
 const xr10 = "cloud.onlinegames.io";
-const xr11 = "cloud.freezenova.com";
-const xr12 = "freezenova.com";
+const xr11 = "cloud.FNAF.com";
+const xr12 = "FNAF.com";
 
 const currentIframeHref = unblockedGetParentUrl();
 if (currentIframeHref != null)

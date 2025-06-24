@@ -1,4 +1,4 @@
-const cacheName = "FreezeNova-Survival Karts-1.2.1";
+const cacheName = "FNAF-Survival Karts-1.2.1";
 const contentToCache = [
     "Build/game.loader.js",
     "Build/game.framework.js.unityweb",
