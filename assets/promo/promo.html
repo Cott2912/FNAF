@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banner</title>
-    <!--<link rel="stylesheet" href="./Banner_files/all.min.css">
+    <!--<link rel="stylesheet" href="/Banner_files/all.min.css">
 	
 	@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 	-->
-	
-	
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-SC8PQWWTGF"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
 
-	  gtag('config', 'G-SC8PQWWTGF');
-	</script>
-	
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SC8PQWWTGF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-SC8PQWWTGF');
+    </script>
+
 
     <style>
-	
-	/* latin */
-	@font-face {
-	  font-family: 'Bangers';
-	  font-style: normal;
-	  font-weight: 400;
-	  src: url(./FeVQS0BTqb0h60ACH55Q2A.woff2) format('woff2');
-	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-	}
-        
-        html{
+        /* latin */
+        @font-face {
+            font-family: 'Bangers';
+            font-style: normal;
+            font-weight: 400;
+            src: url(/FeVQS0BTqb0h60ACH55Q2A.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        html {
             height: 100%;
         }
+
         body {
             font-family: 'Bangers', cursive;
-           /* background-color: #1c1c1c;*/
-            margin:0;
+            /* background-color: #1c1c1c;*/
+            margin: 0;
             --image_vertical_position: center;
             --image_horizontal_position: center;
             --main-color: #746258;
@@ -89,13 +90,20 @@
         }
 
         @keyframes fnafcbanner-bg-animation {
-            0%, 100% { transform: scale(1) }
-            50% { transform: scale(1.1) }
+
+            0%,
+            100% {
+                transform: scale(1)
+            }
+
+            50% {
+                transform: scale(1.1)
+            }
         }
 
         .fnafcbanner:hover {
-        //transform: translateY(-5px);
-        //box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+            //transform: translateY(-5px);
+            //box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
         }
 
         .fnafcbanner img {
@@ -116,13 +124,27 @@
         }
 
         @keyframes fnafcbanner-img-animation {
-            0%, 100% { transform: scale(1) }
-            50% { transform: scale(1.1) }
+
+            0%,
+            100% {
+                transform: scale(1)
+            }
+
+            50% {
+                transform: scale(1.1)
+            }
         }
 
         @keyframes glow {
-            0%, 100% { box-shadow: 0 0 10px var(--main-color); }
-            50% { box-shadow: 0 0 20px var(--main-color), 0 0 30px var(--second-color); }
+
+            0%,
+            100% {
+                box-shadow: 0 0 10px var(--main-color);
+            }
+
+            50% {
+                box-shadow: 0 0 20px var(--main-color), 0 0 30px var(--second-color);
+            }
         }
 
 
@@ -142,9 +164,17 @@
         }
 
         @keyframes color-cycle {
-            0% { color: var(--main-color); }
-            50% { color: var(--second-color); }
-            100% { color: var(--main-color); }
+            0% {
+                color: var(--main-color);
+            }
+
+            50% {
+                color: var(--second-color);
+            }
+
+            100% {
+                color: var(--main-color);
+            }
         }
 
         .fnafcbanner p {
@@ -169,14 +199,21 @@
             overflow: hidden;
             z-index: 1;
             color: #222;
-        //animation: glowbutton 2s infinite alternate;
+            //animation: glowbutton 2s infinite alternate;
             --main-color: #746258;
             --second-color: #988576;
         }
 
         @keyframes glowbutton {
-            0%, 100% { box-shadow: 0 0 5px var(--main-color); }
-            50% { box-shadow: 0 0 10px var(--main-color), 0 0 15px var(--second-color); }
+
+            0%,
+            100% {
+                box-shadow: 0 0 5px var(--main-color);
+            }
+
+            50% {
+                box-shadow: 0 0 10px var(--main-color), 0 0 15px var(--second-color);
+            }
         }
 
         .fnafcbanner button:before {
@@ -206,21 +243,23 @@
             0% {
                 transform: translateX(-100%);
             }
+
             50% {
                 transform: translateX(100%);
             }
+
             100% {
                 transform: translateX(-100%);
             }
         }
 
         .fnafcbanner-728x90 {
-            width:728px;
+            width: 728px;
             height: 90px;
         }
 
         .fnafcbanner-970x90 {
-            width:970px;
+            width: 970px;
             height: 90px;
         }
 
@@ -251,64 +290,81 @@
             flex-direction: row;
         }
 
-        .fnafcbanner-160x600{
-            width:160px;
+        .fnafcbanner-160x600 {
+            width: 160px;
             height: 600px;
             flex-direction: column;
         }
 
         .fnafcbanner-300x600 {
-            width:300px;
+            width: 300px;
             height: 600px;
             flex-direction: column;
         }
 
-        .fnafcbanner-300x250{
-            width:300px;
+        .fnafcbanner-300x250 {
+            width: 300px;
             height: 250px;
             flex-direction: column;
         }
 
-        .fnafcbanner-250x250{
-            width:250px;
+        .fnafcbanner-250x250 {
+            width: 250px;
             height: 250px;
             flex-direction: column;
         }
 
-        .fnafcbanner-200x200{
-            width:200px;
+        .fnafcbanner-200x200 {
+            width: 200px;
             height: 200px;
             flex-direction: column;
         }
 
         .fnafcbanner-336x280 {
-            width:336px;
+            width: 336px;
             height: 280px;
             flex-direction: column;
         }
 
-        .fnafcbanner-728x90 .fnafcbanner-content, .fnafcbanner-970x90 .fnafcbanner-content {
+        .fnafcbanner-728x90 .fnafcbanner-content,
+        .fnafcbanner-970x90 .fnafcbanner-content {
             flex-direction: row;
         }
 
-        .fnafcbanner-970x250 .fnafcbanner-content, .fnafcbanner-1280x250 .fnafcbanner-content, .fnafcbanner-1260x200 .fnafcbanner-content, .fnafcbanner-590x250 .fnafcbanner-content {
+        .fnafcbanner-970x250 .fnafcbanner-content,
+        .fnafcbanner-1280x250 .fnafcbanner-content,
+        .fnafcbanner-1260x200 .fnafcbanner-content,
+        .fnafcbanner-590x250 .fnafcbanner-content {
             max-width: 70% !important;
         }
 
 
-        .fnafcbanner-160x600 .fnafcbanner-content, .fnafcbanner-300x600 .fnafcbanner-content, .fnafcbanner-300x250 .fnafcbanner-content, .fnafcbanner-336x280 .fnafcbanner-content {
-            text-align:center;
+        .fnafcbanner-160x600 .fnafcbanner-content,
+        .fnafcbanner-300x600 .fnafcbanner-content,
+        .fnafcbanner-300x250 .fnafcbanner-content,
+        .fnafcbanner-336x280 .fnafcbanner-content {
+            text-align: center;
             flex-direction: column;
         }
 
-        .fnafcbanner-300x250 .fnafcbanner-content, .fnafcbanner-336x280 .fnafcbanner-content, .fnafcbanner-200x200 .fnafcbanner-content, .fnafcbanner-250x250 .fnafcbanner-content {
+        .fnafcbanner-300x250 .fnafcbanner-content,
+        .fnafcbanner-336x280 .fnafcbanner-content,
+        .fnafcbanner-200x200 .fnafcbanner-content,
+        .fnafcbanner-250x250 .fnafcbanner-content {
             position: fixed;
             gap: 20px;
             line-height: 1.5;
             bottom: 20px;
         }
 
-        .fnafcbanner-300x250.fnafcbanner img, .fnafcbanner-300x250.fnafcbanner video, .fnafcbanner-336x280.fnafcbanner img, .fnafcbanner-336x280.fnafcbanner video, .fnafcbanner-200x200.fnafcbanner img, .fnafcbanner-200x200.fnafcbanner video, .fnafcbanner-250x250.fnafcbanner img, .fnafcbanner-250x250.fnafcbanner video {
+        .fnafcbanner-300x250.fnafcbanner img,
+        .fnafcbanner-300x250.fnafcbanner video,
+        .fnafcbanner-336x280.fnafcbanner img,
+        .fnafcbanner-336x280.fnafcbanner video,
+        .fnafcbanner-200x200.fnafcbanner img,
+        .fnafcbanner-200x200.fnafcbanner video,
+        .fnafcbanner-250x250.fnafcbanner img,
+        .fnafcbanner-250x250.fnafcbanner video {
             filter: brightness(0.7);
             width: 100%;
             height: 100%;
@@ -317,42 +373,54 @@
             position: absolute;
         }
 
-        .fnafcbanner-300x250.fnafcbanner video, .fnafcbanner-336x280.fnafcbanner video, .fnafcbanner-200x200.fnafcbanner video, .fnafcbanner-250x250.fnafcbanner video {
+        .fnafcbanner-300x250.fnafcbanner video,
+        .fnafcbanner-336x280.fnafcbanner video,
+        .fnafcbanner-200x200.fnafcbanner video,
+        .fnafcbanner-250x250.fnafcbanner video {
             object-fit: cover;
         }
 
-        .fnafcbanner-300x250 .wgmedia, .fnafcbanner-336x280 .wgmedia{
+        .fnafcbanner-300x250 .wgmedia,
+        .fnafcbanner-336x280 .wgmedia {
             width: 100%;
             height: 100%;
             position: relative;
         }
 
-        .fnafcbanner-250x250 .wgmedia, .fnafcbanner-200x200 .wgmedia{
+        .fnafcbanner-250x250 .wgmedia,
+        .fnafcbanner-200x200 .wgmedia {
             width: 100%;
             height: 100%;
             position: relative;
         }
 
-        .fnafcbanner-160x600 .fnafcbanner-content, .fnafcbanner-300x600 .fnafcbanner-content, .fnafcbanner-970x250 .fnafcbanner-content {
-            gap:30px;
+        .fnafcbanner-160x600 .fnafcbanner-content,
+        .fnafcbanner-300x600 .fnafcbanner-content,
+        .fnafcbanner-970x250 .fnafcbanner-content {
+            gap: 30px;
         }
 
 
-        .fnafcbanner-728x90.fnafcbanner img, .fnafcbanner-970x90.fnafcbanner img, .fnafcbanner-728x90.fnafcbanner video, .fnafcbanner-970x90.fnafcbanner video  {
+        .fnafcbanner-728x90.fnafcbanner img,
+        .fnafcbanner-970x90.fnafcbanner img,
+        .fnafcbanner-728x90.fnafcbanner video,
+        .fnafcbanner-970x90.fnafcbanner video {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            position:absolute;
+            position: absolute;
             object-position: var(--image_vertical_position) var(--image_horizontal_position);
         }
 
 
-        .fnafcbanner-728x90.fnafcbanner video, .fnafcbanner-970x90.fnafcbanner video  {
+        .fnafcbanner-728x90.fnafcbanner video,
+        .fnafcbanner-970x90.fnafcbanner video {
             object-fit: cover;
             box-shadow: 0px 0px 40px 15px #000000;
         }
 
-        .fnafcbanner-728x90 .wgmedia, .fnafcbanner-970x90 .wgmedia {
+        .fnafcbanner-728x90 .wgmedia,
+        .fnafcbanner-970x90 .wgmedia {
             width: 20%;
             height: 100%;
             position: relative;
@@ -360,17 +428,25 @@
             align-items: center;
         }
 
-        .fnafcbanner-728x90.fnafcbanner h2, .fnafcbanner-970x90.fnafcbanner h2 {
+        .fnafcbanner-728x90.fnafcbanner h2,
+        .fnafcbanner-970x90.fnafcbanner h2 {
             font-size: 2.3rem;
             letter-spacing: 3px;
         }
 
 
-        .fnafcbanner-970x250.fnafcbanner img, .fnafcbanner-970x250.fnafcbanner video, .fnafcbanner-1280x250.fnafcbanner img, .fnafcbanner-1280x250.fnafcbanner video, .fnafcbanner-1260x200.fnafcbanner img, .fnafcbanner-1260x200.fnafcbanner video, .fnafcbanner-590x250.fnafcbanner img, .fnafcbanner-590x250.fnafcbanner video {
+        .fnafcbanner-970x250.fnafcbanner img,
+        .fnafcbanner-970x250.fnafcbanner video,
+        .fnafcbanner-1280x250.fnafcbanner img,
+        .fnafcbanner-1280x250.fnafcbanner video,
+        .fnafcbanner-1260x200.fnafcbanner img,
+        .fnafcbanner-1260x200.fnafcbanner video,
+        .fnafcbanner-590x250.fnafcbanner img,
+        .fnafcbanner-590x250.fnafcbanner video {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            position:absolute;
+            position: absolute;
             object-position: var(--image_vertical_position) var(--image_horizontal_position);
         }
 
@@ -379,12 +455,16 @@
             box-shadow: 0px 0px 40px 15px #000000;
         }
 
-        .fnafcbanner-1280x250.fnafcbanner video, .fnafcbanner-1260x200.fnafcbanner video, .fnafcbanner-590x250.fnafcbanner video {
+        .fnafcbanner-1280x250.fnafcbanner video,
+        .fnafcbanner-1260x200.fnafcbanner video,
+        .fnafcbanner-590x250.fnafcbanner video {
             object-fit: contain;
             box-shadow: 0px 0px 40px 15px #000000;
         }
 
-        .fnafcbanner-970x250 .wgmedia, .fnafcbanner-1280x250 .wgmedia, .fnafcbanner-1260x200 .wgmedia {
+        .fnafcbanner-970x250 .wgmedia,
+        .fnafcbanner-1280x250 .wgmedia,
+        .fnafcbanner-1260x200 .wgmedia {
             width: 40%;
             height: 100%;
             position: relative;
@@ -400,41 +480,57 @@
             align-items: center;
         }
 
-        .fnafcbanner-970x250.fnafcbanner button, .fnafcbanner-1280x250.fnafcbanner button, .fnafcbanner-1260x200.fnafcbanner button{
+        .fnafcbanner-970x250.fnafcbanner button,
+        .fnafcbanner-1280x250.fnafcbanner button,
+        .fnafcbanner-1260x200.fnafcbanner button {
             font-size: 2.2rem;
         }
 
-        .fnafcbanner-590x250.fnafcbanner button{
+        .fnafcbanner-590x250.fnafcbanner button {
             font-size: 2rem;
         }
 
-        .fnafcbanner-300x600.fnafcbanner button, .fnafcbanner-540x400.fnafcbanner button, .fnafcbanner-160x600.fnafcbanner button, .fnafcbanner-300x250.fnafcbanner button, .fnafcbanner-336x280.fnafcbanner button, .fnafcbanner-250x250.fnafcbanner button{
+        .fnafcbanner-300x600.fnafcbanner button,
+        .fnafcbanner-540x400.fnafcbanner button,
+        .fnafcbanner-160x600.fnafcbanner button,
+        .fnafcbanner-300x250.fnafcbanner button,
+        .fnafcbanner-336x280.fnafcbanner button,
+        .fnafcbanner-250x250.fnafcbanner button {
             font-size: 1.7rem;
         }
 
-        .fnafcbanner-200x200.fnafcbanner button{
+        .fnafcbanner-200x200.fnafcbanner button {
             font-size: 1.5rem;
         }
 
 
-        .fnafcbanner-970x250.fnafcbanner h2, .fnafcbanner-1280x250.fnafcbanner h2, .fnafcbanner-1260x200.fnafcbanner h2 {
+        .fnafcbanner-970x250.fnafcbanner h2,
+        .fnafcbanner-1280x250.fnafcbanner h2,
+        .fnafcbanner-1260x200.fnafcbanner h2 {
             font-size: 3rem;
             letter-spacing: 3px;
         }
 
-        .fnafcbanner-590x250.fnafcbanner h2  {
+        .fnafcbanner-590x250.fnafcbanner h2 {
             font-size: 2.3rem;
             letter-spacing: 3px;
         }
 
-        .fnafcbanner-300x600.fnafcbanner img, .fnafcbanner-160x600.fnafcbanner img, .fnafcbanner-300x600.fnafcbanner video, .fnafcbanner-160x600.fnafcbanner video, .fnafcbanner-540x400.fnafcbanner img, .fnafcbanner-540x400.fnafcbanner video {
+        .fnafcbanner-300x600.fnafcbanner img,
+        .fnafcbanner-160x600.fnafcbanner img,
+        .fnafcbanner-300x600.fnafcbanner video,
+        .fnafcbanner-160x600.fnafcbanner video,
+        .fnafcbanner-540x400.fnafcbanner img,
+        .fnafcbanner-540x400.fnafcbanner video {
             width: 100%;
             height: 100%;
             object-fit: cover;
             position: absolute;
         }
 
-        .fnafcbanner-300x600.fnafcbanner video, .fnafcbanner-540x400.fnafcbanner video, .fnafcbanner-160x600.fnafcbanner video {
+        .fnafcbanner-300x600.fnafcbanner video,
+        .fnafcbanner-540x400.fnafcbanner video,
+        .fnafcbanner-160x600.fnafcbanner video {
             object-fit: cover;
             box-shadow: 0px 0px 40px 15px #000000;
         }
@@ -447,7 +543,7 @@
         .fnafcbanner-300x600 .wgmedia {
             width: 100%;
             height: 40%;
-            position:relative;
+            position: relative;
             display: flex;
             align-items: center;
         }
@@ -455,7 +551,7 @@
         .fnafcbanner-540x400 .wgmedia {
             width: 95%;
             height: 55%;
-            position:relative;
+            position: relative;
             display: flex;
             align-items: center;
         }
@@ -463,12 +559,13 @@
         .fnafcbanner-160x600 .wgmedia {
             width: 100%;
             height: 25%;
-            position:relative;
+            position: relative;
             display: flex;
             align-items: center;
         }
 
-        .fnafcbanner-300x600 .fnafcbanner-content h2, .fnafcbanner-540x400 .fnafcbanner-content h2 {
+        .fnafcbanner-300x600 .fnafcbanner-content h2,
+        .fnafcbanner-540x400 .fnafcbanner-content h2 {
             line-height: 1.4;
             font-size: 2.5rem;
             letter-spacing: 3px;
@@ -480,7 +577,9 @@
             letter-spacing: 3px;
         }
 
-        .fnafcbanner-300x250 .fnafcbanner-content h2, .fnafcbanner-336x280 .fnafcbanner-content h2, .fnafcbanner-250x250 .fnafcbanner-content h2 {
+        .fnafcbanner-300x250 .fnafcbanner-content h2,
+        .fnafcbanner-336x280 .fnafcbanner-content h2,
+        .fnafcbanner-250x250 .fnafcbanner-content h2 {
             line-height: 1.4;
             font-size: 1.9rem;
             letter-spacing: 3px;
@@ -493,12 +592,21 @@
         }
 
         /* Hide description for specified formats. */
-        .fnafcbanner-250x250 .fnafcbanner-content p, .fnafcbanner-200x200 .fnafcbanner-content p, .fnafcbanner-300x600 .fnafcbanner-content p, .fnafcbanner-1280x250 .fnafcbanner-content p, .fnafcbanner-728x90 .fnafcbanner-content p, .fnafcbanner-970x90 .fnafcbanner-content p, .fnafcbanner-970x250 .fnafcbanner-content p, .fnafcbanner-160x600 .fnafcbanner-content p, .fnafcbanner-300x250 .fnafcbanner-content p, .fnafcbanner-336x280 .fnafcbanner-content p {
+        .fnafcbanner-250x250 .fnafcbanner-content p,
+        .fnafcbanner-200x200 .fnafcbanner-content p,
+        .fnafcbanner-300x600 .fnafcbanner-content p,
+        .fnafcbanner-1280x250 .fnafcbanner-content p,
+        .fnafcbanner-728x90 .fnafcbanner-content p,
+        .fnafcbanner-970x90 .fnafcbanner-content p,
+        .fnafcbanner-970x250 .fnafcbanner-content p,
+        .fnafcbanner-160x600 .fnafcbanner-content p,
+        .fnafcbanner-300x250 .fnafcbanner-content p,
+        .fnafcbanner-336x280 .fnafcbanner-content p {
             display: none;
         }
 
-        .spacer{
-            margin:30px 0px 30px 0px;
+        .spacer {
+            margin: 30px 0px 30px 0px;
         }
 
         .fnafcbanner video {
@@ -517,7 +625,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-            background-color: rgba(255,255,255,0.85);
+            background-color: rgba(255, 255, 255, 0.85);
             z-index: 999999;
             flex-direction: column;
             align-items: center;
@@ -534,8 +642,8 @@
             color: #000;
         }
 
-        .wgbmain{
-            perspective:1000px;
+        .wgbmain {
+            perspective: 1000px;
         }
 
         .wgboverlay {
@@ -550,7 +658,7 @@
             margin: 0 auto;
         }
 
-        .wgboverlay a{
+        .wgboverlay a {
             text-decoration: none;
             font-family: 'Bangers', cursive;
             position: relative;
@@ -567,7 +675,7 @@
             color: #222;
         }
 
-        .wgboverlay a:before{
+        .wgboverlay a:before {
             content: '';
             position: absolute;
             top: 0;
@@ -594,7 +702,7 @@
             z-index: 9999;
         }
 
-        .wgbannerlabel{
+        .wgbannerlabel {
             background-size: 15px;
             width: fit-content;
             color: #2f2f2f;
@@ -618,8 +726,6 @@
             letter-spacing: 1px;
             text-align: center;
         }
-
-
     </style>
 </head>
 
@@ -658,20 +764,20 @@
         const gameURL = urlParams.get('url') || 'https://www.onlinegames.io/';
         const gameImg = urlParams.get('img') || 'https://www.onlinegames.io/games/media/main/onlinegames-mascot-512.png';
 
-		const utmParams = new URLSearchParams({
-			utm_source: 'freezenova'
-		});
-		const gameURL2 = `${gameURL}?${utmParams.toString()}`;
+        const utmParams = new URLSearchParams({
+            utm_source: 'freezenova'
+        });
+        const gameURL2 = `${gameURL}?${utmParams.toString()}`;
 
         // Update the HTML elements dynamically
         document.getElementById('WGBFormat').href = gameURL;
         document.getElementById('gameName').innerText = gameName;
         document.getElementById('gameImg').src = gameImg;
-		
-		document.title = gameName + " (" + window.location.hostname + ")";
+
+        document.title = gameName + " (" + window.location.hostname + ")";
 
 
-        document.getElementById('close-btn').addEventListener('click', function() {
+        document.getElementById('close-btn').addEventListener('click', function () {
             document.getElementById('overlay').style.display = 'none';
         });
 

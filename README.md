@@ -55,7 +55,7 @@ This project is deployed on several platforms for demonstration:
       - Connect to GitHub, then choose your repo.
    3. **Build and Publish**  
       - **Build Command**: leave empty if no build step is needed.  
-      - **Publish Directory**: `./` if your `index.html` is in the root folder.
+      - **Publish Directory**: `/` if your `index.html` is in the root folder.
    4. **Deploy**  
       - Netlify automatically builds and hosts your site.  
       - You’ll get a subdomain like `your-site-name.netlify.app`.

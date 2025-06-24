@@ -79,7 +79,7 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 	opacity: 0;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -264,7 +264,7 @@
 
 .pswp--svg .pswp__button,
 .pswp--svg .pswp__button--arrow--left:before,
-.pswp--svg .pswp__button--arrow--right:before {	
+.pswp--svg .pswp__button--arrow--right:before {
 	background-size: 264px 88px;
 	width: 44px;
 	height: 44px;
@@ -281,7 +281,7 @@
 }
 
 .pswp__button--share {
-	background-position: -44px -44px!important;
+	background-position: -44px -44px !important;
 }
 
 .pswp__button--fs {
@@ -293,12 +293,12 @@
 }
 
 .pswp--fs .pswp__button--fs {
-	background-position: -44px 0!important;
+	background-position: -44px 0 !important;
 }
 
 .pswp__button--zoom {
 	display: none;
-	background-position: -88px 0!important;
+	background-position: -88px 0 !important;
 }
 
 .pswp--zoom-allowed .pswp__button--zoom {
@@ -306,7 +306,7 @@
 }
 
 .pswp--zoomed-in .pswp__button--zoom {
-	background-position: -132px 0!important;
+	background-position: -132px 0 !important;
 }
 
 /* no arrows on touch screens */
@@ -356,7 +356,7 @@
 
 .pswp__button--arrow--right:before {
 	right: -6px;
-	background-position: -94px -44px; 
+	background-position: -94px -44px;
 }
 
 /*
@@ -536,7 +536,7 @@ a.pswp__share--download:hover {
 	padding: 1rem 4%;
 	line-height: 20px;
 	color: #CCC;
-	
+
 }
 
 .pswp__caption--empty {
@@ -583,7 +583,7 @@ a.pswp__share--download:hover {
 
 .pswp__preloader--active .pswp__preloader__icn {
 	/* We use .gif in browsers that don't support CSS animation */
-	background: url(../images/preloader.gif) 0 0 no-repeat;
+	background: url(./images/preloader.gif) 0 0 no-repeat;
 }
 
 .pswp--css_animation .pswp__preloader--active {
@@ -653,6 +653,7 @@ a.pswp__share--download:hover {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -664,6 +665,7 @@ a.pswp__share--download:hover {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -675,10 +677,12 @@ a.pswp__share--download:hover {
 		-webkit-transform: rotate(0);
 		transform: rotate(0);
 	}
+
 	50% {
 		-webkit-transform: rotate(-140deg);
 		transform: rotate(-140deg);
 	}
+
 	100% {
 		-webkit-transform: rotate(0);
 		transform: rotate(0);
@@ -690,10 +694,12 @@ a.pswp__share--download:hover {
 		-webkit-transform: rotate(0);
 		transform: rotate(0);
 	}
+
 	50% {
 		-webkit-transform: rotate(-140deg);
 		transform: rotate(-140deg);
 	}
+
 	100% {
 		-webkit-transform: rotate(0);
 		transform: rotate(0);
@@ -719,8 +725,8 @@ a.pswp__share--download:hover {
 
 .pswp__top-bar {
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;

@@ -48,17 +48,16 @@ try {
 }
 
 if (canRedir && result.inIframe && !result.sameDomain) {
-	
-	const getRootDomain = (hostname) => {
+
+    const getRootDomain = (hostname) => {
         const parts = hostname.split('.');
         return parts.length > 2 ? parts.slice(-2).join('.') : hostname;
     };
     const rootDomain1 = getRootDomain(window.location.hostname);
-	if (rootDomain1 !== "freezenova.com" && rootDomain1 !== "onlinegames.io"
-		&& rootDomain1 !== "totallyscience.co" && window.self !== window.parent)
-	{
-		// Redirect to pre.html if the page is in an iframe and not on the same domain
-		console.log("pre");
-		window.location.href = './pre.html';
-	}
+    if (rootDomain1 !== "freezenova.com" && rootDomain1 !== "onlinegames.io"
+        && rootDomain1 !== "totallyscience.co" && window.self !== window.parent) {
+        // Redirect to pre.html if the page is in an iframe and not on the same domain
+        console.log("pre");
+        window.location.href = '/pre.html';
+    }
 }

@@ -427,91 +427,91 @@ window.adManager = new AdManager([
     id: "survival-karts",
     name: "Survival Karts",
     url: "https://unblocked-games.s3.amazonaws.com/survival-karts.html",
-    image: "./img/survival-karts.webp",
+    image: "/img/survival-karts.webp",
     timer: 11
   },
   {
     id: "block-blast",
     name: "Block Blast",
     url: "https://unblocked-games.s3.amazonaws.com/block-blast.html",
-    image: "./img/block-blast.webp",
+    image: "/img/block-blast.webp",
     timer: 11
   },
   {
     id: "cake-match-puzzle",
     name: "Cake Match Puzzle",
     url: "https://unblocked-games.s3.amazonaws.com/cake-match-puzzle.html",
-    image: "./img/cake-match-puzzle.webp",
+    image: "/img/cake-match-puzzle.webp",
     timer: 11
   },
   {
     id: "basketball-king",
     name: "Basketball King",
     url: "https://unblocked-games.s3.amazonaws.com/basketball-king.html",
-    image: "./img/basketball-king.webp",
+    image: "/img/basketball-king.webp",
     timer: 11
   },
   {
     id: "basket-hoop",
     name: "Basket Hoop",
     url: "https://unblocked-games.s3.amazonaws.com/basket-hoop.html",
-    image: "./img/basket-hoop.webp",
+    image: "/img/basket-hoop.webp",
     timer: 11
   },
   {
     id: "stickman-parkour",
     name: "Stickman Parkour",
     url: "https://unblocked-games.s3.amazonaws.com/stickman-parkour.html",
-    image: "./img/stickman-parkour.webp",
+    image: "/img/stickman-parkour.webp",
     timer: 11
   },
   {
     id: "egg-car-racing",
     name: "Egg Car Racing",
     url: "https://unblocked-games.s3.amazonaws.com/egg-car-racing.html",
-    image: "./img/egg-car-racing.webp",
+    image: "/img/egg-car-racing.webp",
     timer: 11
   },
   {
     id: "geometry-escape",
     name: "Geometry Escape",
     url: "https://unblocked-games.s3.amazonaws.com/geometry-escape.html",
-    image: "./img/geometry-escape.webp",
+    image: "/img/geometry-escape.webp",
     timer: 11
   },
   {
     id: "police-chase-drifter",
     name: "Police Chase Drifter",
     url: "https://unblocked-games.s3.amazonaws.com/police-chase-drifter.html",
-    image: "./img/police-chase-drifter.webp",
+    image: "/img/police-chase-drifter.webp",
     timer: 11
   },
   {
     id: "highway-traffic",
     name: "Highway Traffic",
     url: "https://unblocked-games.s3.amazonaws.com/highway-traffic.html",
-    image: "./img/highway-traffic.jpg",
+    image: "/img/highway-traffic.jpg",
     timer: 11
   },
   {
     id: "online-games",
     name: "Online Games.io",
     url: "https://www.onlinegames.io/",
-    image: "./img/onlinegames-mascot.png",
+    image: "/img/onlinegames-mascot.png",
     timer: 11
   },
   {
     id: "stickman-gta-city",
     name: "Stickman Gta City",
     url: "https://unblocked-games.s3.amazonaws.com/stickman-gta-city.html",
-    image: "./img/stickman-gta-city.webp",
+    image: "/img/stickman-gta-city.webp",
     timer: 11
   },
   {
     id: "snake",
     name: "Snake",
     url: "https://unblocked-games.s3.amazonaws.com/snake.html",
-    image: "./img/snake.webp",
+    image: "/img/snake.webp",
     timer: 11
   }
 ]);
